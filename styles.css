@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url("fonts/Merriweather-Regular.ttf");
+}
+@font-face {
+    font-family: "Merriweather-Italic";
+    src: url("fonts/Merriweather-BoldItalic.ttf");
+}
+
+body {
+    background-color: #f2f2dd;
+    font-family: "Merriweather", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100%
+}
+
+h1 {
+    color: #e8000d;
+    font-size: 2.5em;
+}
+p {
+    color: #0051BA;
+    font-size: 1.5em;
+}
+
+/* Tabs & border */
+
+#border img {
+    max-width: 100%;
+    margin: auto;
+}
+#topBorder {
+    position: fixed;
+    top: 0;
+}
+#bottomBorder {
+    position: fixed;
+    bottom: 0;
+}
+
+/* Main */
+
+#header img {
+    margin: 0px 40px;
+    width: 70%;
+}
+#header p {
+    font-size: 4vw;
+    color: #e8000d;
+    margin: 20px 55px;
+}
+
+#main-pattern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 40px;
+}
+.pattern-image {
+    margin: 20px 10px;
+}
+#main-pattern img {
+    width: 100%;
+    max-width: 150px;
+}
+#register {
+    position: relative;
+    text-align: center;
+}
+#register img {
+    max-width: 250px;
+}
+#register p {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    width: 100%;
+    font-family: "Merriweather-Italic";
+    font-size: 1.1em;
+    color: #f2f2dd;
+}
+
+/* About us */
+
+#about {
+    margin: 200px 20px;
+    position: relative;
+    display: flex;
+}
+#about::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#info {
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    left: 5%;
+    font-size: 1.6vw;
+}
+
+#art img {
+    max-width: 60%;
+    float: right;
+}
+
+/* Schedule */
+
+#schedule {
+    margin: 200px 40px;
+    height: 100%;
+}
+#folder {
+    max-width: 60%;
+}
+
+#table {
+    float: right;
+    height: 100%;
+    max-width: 40%;
+}
+
+/* QnA */
+
+#qna {
+    margin: 200px 40px;
+}
+
+
+/* Sponsors */
+
+#sponsors {
+    margin: 200px 0px;
+    text-align: center;
+}
+
+/* Meet the Team */
+#team {
+    margin: 0px 40px;
+    text-align: center;
+}
+#group1 {
+    display: flex;
+    justify-content: center;
+}
+
+#group2 {
+    display: flex;
+    justify-content: center;
+}
+
+.person {
+    max-width: 200px;
+    text-align: center;
+}
+
+.border {
+    width: 100%;
+}
